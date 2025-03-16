@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   function createRandomValue() {
-    return Math.floor(Math.random() * 101);
+    return Math.floor(Math.random() * 1001);
   }
   const [values, setValues] = useState([54, 23, 89, 67, 12, 41, 97, 35, 76, 5]);
 
