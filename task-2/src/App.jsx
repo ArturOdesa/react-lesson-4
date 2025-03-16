@@ -5,7 +5,7 @@ function App() {
   const [text, setText] = useState('New value will be displayed here');
 
   const createRandomValue = () => {
-    return Math.floor(Math.random() * 100);
+    return Math.floor(Math.random() * 101);
   }
 
   const addText = () => {
